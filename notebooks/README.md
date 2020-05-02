@@ -23,6 +23,9 @@ Descriptions below the links are from the first cell of the notebooks
     ***  
 
 ***
+* ### [MODIS_SST.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/MODIS_SST.ipynb)  
+    
+***
 * ### [NEMO_postprocessing.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/NEMO_postprocessing.ipynb)  
     
     **NEMO upwelling postprocessing development notebook**  
