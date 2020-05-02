@@ -1,4 +1,4 @@
-## SOG Upwelling Paperfigs
+## Notebooks
 
 The Jupyter Notebooks in this directory are made by Ben
 Moore-Maley for quick sharing of results.
@@ -9,28 +9,28 @@ Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
 ***
-* ### [Burger_number_dependence.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/Burger_number_dependence.ipynb)  
+* ### [Burger_number_dependence.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/Burger_number_dependence.ipynb)  
     
     **Burger number dependence**  
       
     ***  
 
 ***
-* ### [EOF_analysis.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/EOF_analysis.ipynb)  
+* ### [EOF_analysis.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/EOF_analysis.ipynb)  
     
     **EOF Analysis of NEMO surface tracers**  
       
     ***  
 
 ***
-* ### [NEMO_postprocessing.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/NEMO_postprocessing.ipynb)  
+* ### [NEMO_postprocessing.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/NEMO_postprocessing.ipynb)  
     
     **NEMO upwelling postprocessing development notebook**  
       
     ***  
 
 ***
-* ### [hindcast_nitrate_summary.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/hindcast_nitrate_summary.ipynb)  
+* ### [hindcast_nitrate_summary.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/hindcast_nitrate_summary.ipynb)  
     
     **Hindcast nitrate summary**  
       
@@ -39,7 +39,7 @@ Descriptions below the links are from the first cell of the notebooks
     ***  
 
 ***
-* ### [maps.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/maps.ipynb)  
+* ### [maps.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/maps.ipynb)  
     
     **Study area maps**  
       
@@ -48,34 +48,37 @@ Descriptions below the links are from the first cell of the notebooks
     ***  
 
 ***
-* ### [model_ramblings.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/model_ramblings.ipynb)  
+* ### [model_ramblings.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/model_ramblings.ipynb)  
     
 ***
-* ### [richardson_number_scaling.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/richardson_number_scaling.ipynb)  
+* ### [richardson_number_scaling.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/richardson_number_scaling.ipynb)  
     
     **Richardson number scaling**  
       
     ***  
 
 ***
-* ### [topographic_dependence_summary.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/topographic_dependence_summary.ipynb)  
+* ### [topographic_dependence_summary.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/topographic_dependence_summary.ipynb)  
     
     **Summary of topographic dependence**  
       
     ***  
 
 ***
-* ### [two_layer_upwelling_analysis.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/analysis-ben/blob/master/notebooks/SOG_upwelling_paperfigs/two_layer_upwelling_analysis.ipynb)  
+* ### [two_layer_upwelling_analysis.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/two_layer_upwelling_analysis.ipynb)  
     
     **Wind-driven upwelling - 2 layer analysis**  
       
     ***  
 
+***
+* ### [wind_analysis.ipynb](http://nbviewer.ipython.org/urls/github.com/SalishSeaCast/SOG_upwelling_paper/blob/master/notebooks/wind_analysis.ipynb)  
+    
 
 ## License
 
 These notebooks and files are copyright 2013-2020
-by the Salish Sea MEOPAR Project Contributors
+by the SalishSeaCast Project Contributors
 and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0.
