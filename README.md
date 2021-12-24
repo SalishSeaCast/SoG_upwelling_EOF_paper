@@ -8,7 +8,7 @@ This repository contains a suite of interactive Jupyter notebooks and Python scr
 
 >B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2021.
 
-[Conda](https://conda.io) users can build the Python virtual environment necessary to run these scripts with the included `environment.yaml` file. From the Conda base environment, clone the repository to a working directory and build the environment:
+[Conda](https://docs.conda.io/en/latest/miniconda.html) users can build the Python virtual environment necessary to run these scripts with the included `environment.yaml` file. From the Conda base environment, clone the repository to a working directory and build the environment:
 
 ```
 $ git clone https://github.com/SalishSeaCast/SoG_upwelling_EOF_paper.git
@@ -21,14 +21,14 @@ $ source activate SoG_upwelling_EOF_paper
 The SalishSeaCast and HRDPS results will need to be aggregated before running the analysis notebooks. The `scripts/aggregate_results.py` module is included for this task:
 
 ```
-cd scripts
-python3 aggregate_results.py /path/to/files
+$ cd scripts
+$ python3 aggregate_results.py /path/to/files
 ```
 
 Finally, any of the notebooks can by run by starting a Jupyter session and navigating to the `notebooks` directory:
 
 ```
-jupyter lab
+$ jupyter lab
 ```
 
 ## Licenses
