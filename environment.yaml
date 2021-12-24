@@ -1,0 +1,31 @@
+# conda environment description file for SoG upwelling EOF manuscript
+# analysis code
+#
+# Create a conda environment for running the analysis code scripts
+# and notebooks with:
+#
+#    $ cd SoG_upwelling_EOF_paper
+#    $ conda env create -f envs/environment.yaml
+#    $ source activate SoG_upwelling_EOF_paper
+
+name: SoG_upwelling_EOF_paper
+
+channels:
+  - conda-forge
+
+dependencies:
+  - bottleneck
+  - cartopy # includes matplotlib
+  - dask
+  - ipywidgets
+  - jupyterlab
+  - netCDF4
+  - pip
+  - pymc3
+  - python=3.9
+  - scipy
+  - tqdm
+  - xarray # includes pandas
+
+  - pip:
+    - windrose
