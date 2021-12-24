@@ -1,4 +1,14 @@
 #!/usr/bin/env python
+#
+# Code module for aggregating SalishSeaCast and HRDPS results
+# from the SalishSeaCast ERDDAP server
+# https://salishsea.eos.ubc.ca/erddap/griddap
+#
+# required for the analyses presented in:
+# 
+# B. Moore-Maley and S. E. Allen: Wind-driven upwelling and
+# surface nutrient delivery in a semi-enclosed coastal sea,
+# Ocean Sci., 2021.
 
 import numpy as np
 import xarray as xr
@@ -15,7 +25,9 @@ def build_HRDPS_mask(
     mask_file='ubcSSn3DMeshMaskV17-02',
     gridref_path='../grid/grid_from_lat_lon_mask999.nc',
 ):
-    '''Build HRDPS mask
+    '''Build HRDPS mask over the specified subdomain using the 
+    `grid_from_lat_lon_mask999.nc` lookup reference file and return
+    the flattened boolean mask array `wmask`.
     '''
 
     # Load netCDF files and variables
@@ -54,7 +66,10 @@ def load_HRDPS(
     erddap_url='https://salishsea.eos.ubc.ca/erddap/griddap/',
     HRDPS_file='ubcSSaSurfaceAtmosphereFieldsV1',
 ):
-    '''Load HRDPS velocities and calculate along-axis components
+    '''Load HRDPS velocities and calculate along-axis velocity and
+    wind stress over the open-water points determined by `wmask`.
+    Return results as the dictionary `data`. The `subdomain` is
+    chosen to limit the results coverage to a box around the SoG.
     '''
     
     # Wind processing parameters
@@ -101,7 +116,8 @@ def load_NEMO(
     grid_file='ubcSSnBathymetryV17-02',
     mask_file='ubcSSn3DMeshMaskV17-02',
 ):
-    '''Load NEMO surface temperature and nitrate fields
+    '''Load NEMO surface temperature and nitrate fields over
+    `subdomain`. Return results as the dictionary `data`.
     '''
 
     # Lazy load and slice NEMO netCDF files
@@ -134,7 +150,8 @@ def load_NEMO(
 
 
 def build_results_file(savepath, subdomain=[110, 370, 300, 850]):
-    '''Build results netCDF file for SoG upwelling EOF paper
+    '''Call the HRDPS and NEMO load functions and build results
+    netCDF file for SoG upwelling EOF paper.
     '''
     
     # Load HRDPS results (~5-10 min)

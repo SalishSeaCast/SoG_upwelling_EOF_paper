@@ -1,7 +1,5 @@
 # Moore-Maley and Allen, 2021, Ocean Sci. analysis code
 
-***
-
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This repository contains a suite of interactive Jupyter notebooks and Python scripts that will allow the user to reproduce the results and figures presented in:
@@ -32,8 +30,6 @@ $ jupyter lab
 ```
 
 ## Licenses
-
-***
 
 The SalishSeaCast analysis and documentation are copyright 2013-2021 by the [Salish Sea MEOPAR Project Contributors](https://github.com/SalishSeaCast/docs/blob/master/CONTRIBUTORS.rst) and The University of British Columbia.
 
