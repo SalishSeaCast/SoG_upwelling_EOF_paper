@@ -5,7 +5,7 @@
 # and notebooks with:
 #
 #    $ cd SoG_upwelling_EOF_paper
-#    $ conda env create -f envs/environment.yaml
+#    $ conda env create -f environment.yaml
 #    $ source activate SoG_upwelling_EOF_paper
 
 name: SoG_upwelling_EOF_paper
@@ -15,17 +15,20 @@ channels:
 
 dependencies:
   - bottleneck
-  - cartopy # includes matplotlib
+  - cartopy
   - dask
   - ipywidgets
   - jupyterlab
+  - matplotlib
   - netCDF4
+  - numpy
+  - pandas
   - pip
   - pymc3
   - python=3.9
   - scipy
   - tqdm
-  - xarray # includes pandas
+  - xarray
 
   - pip:
     - windrose
