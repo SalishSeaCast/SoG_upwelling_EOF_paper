@@ -9,7 +9,7 @@ This repository contains a suite of interactive Jupyter notebooks and Python scr
 
 `Conda`_ users can build the Python virtual environment necessary to run these scripts with the included :code:`environment.yaml` file. From the Conda base environment, clone the repository to a working directory and build the environment:
 
-.. code-block::
+.. code-block:: bash
     git clone https://github.com/SalishSeaCast/SoG_upwelling_EOF_paper.git
     cd SoG_upwelling_EOF_paper
     conda update -n base conda
@@ -18,13 +18,13 @@ This repository contains a suite of interactive Jupyter notebooks and Python scr
 
 The SalishSeaCast and HRDPS results will need to be aggregated before running the analysis notebooks. The :code:`scripts/aggregate_results.py` module is included for this task:
 
-.. code-block::
+.. code-block:: bash
     cd scripts
     python3 aggregate_results.py /path/to/files
 
 Finally, any of the notebooks can by run by starting a Jupyter session and navigating to the :code:`notebooks` directory:
 
-.. code-block::
+.. code-block:: bash
     jupyter lab
 
 Licenses
