@@ -4,7 +4,7 @@
 
 This repository contains a suite of interactive Jupyter notebooks and Python scripts that will allow the user to reproduce the results and figures presented in:
 
->B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2021.
+>B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2022.
 
 [Conda](https://docs.conda.io/en/latest/miniconda.html) users can build the Python virtual environment necessary to run these scripts with the included `environment.yaml` file. From the Conda base environment, clone the repository to a working directory and build the environment:
 

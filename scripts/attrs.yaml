@@ -10,7 +10,7 @@ dataset_attributes:
         Aggregated HRDPS surface wind velocity and SalishSeaCast temperature and nitrate
         over the Strait of Georiga subregion used for the analysis presented in
         B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery
-        in a semi-enclosed coastal sea, Ocean Sci., 2021.
+        in a semi-enclosed coastal sea, Ocean Sci., 2022.
     doi: pending assignment
     history: none
     infoUrl: https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results
@@ -32,7 +32,7 @@ dataset_attributes:
         SalishSeaCast surface tracer fields, hourly, v19-05, aggregated tracer profiles,
         and HRDPS along-axis surface wind velocity and wind stress used for the analysis
         presented in B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface
-        nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2021.
+        nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2022.
 
         Surface water temperature and nitrate field values averaged over 1 hour intervals
         from SalishSeaCast model runs with physics, biology and chemistry. The values are
@@ -63,7 +63,7 @@ dataset_attributes:
     title: >
         Aggregated SalishSeaCast tracer fields, hourly, v19-05 and HRDPS wind velocities
         used for the analysis presented in B. Moore-Maley and S. E. Allen: Wind-driven
-        upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2021.
+        upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2022.
 
 variable_attributes:
     time:

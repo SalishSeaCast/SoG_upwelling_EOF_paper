@@ -8,7 +8,7 @@
 # 
 # B. Moore-Maley and S. E. Allen: Wind-driven upwelling and
 # surface nutrient delivery in a semi-enclosed coastal sea,
-# Ocean Sci., 2021.
+# Ocean Sci., 2022.
 #
 # This routine can be run to aggregate the files with
 #
