@@ -1,4 +1,4 @@
-# Moore-Maley and Allen, 2021, Ocean Sci. analysis code
+# Moore-Maley and Allen, 2022, Ocean Sci. analysis code
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
