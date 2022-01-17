@@ -16,11 +16,23 @@ $ conda env create -f environment.yaml
 $ source activate SoG_upwelling_EOF_paper
 ```
 
+Next, add the `scripts` directory to your `PYTHONPATH` environment variable to access the `tools` module:
+
+```
+$ export PYTHONPATH=$PYTHONPATH:/path/to/SoG_upwelling_EOF_paper/scripts
+```
+
 The SalishSeaCast and HRDPS results will need to be aggregated before running the analysis notebooks. The `scripts/aggregate_results.py` module is included for this task:
 
 ```
 $ cd scripts
 $ python3 aggregate_results.py /path/to/files
+```
+
+The PCA results can then be generated:
+
+```
+$ python3 PCA.py /path/to/files
 ```
 
 Finally, any of the notebooks can by run by starting a Jupyter session and navigating to the `notebooks` directory:
