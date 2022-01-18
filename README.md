@@ -1,6 +1,7 @@
 # Moore-Maley and Allen, 2022, Ocean Sci. analysis code
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![DOI](https://zenodo.org/badge/260702859.svg)](https://zenodo.org/badge/latestdoi/260702859)
 
 This repository contains a suite of interactive Jupyter notebooks and Python scripts that will allow the user to reproduce the results and figures presented in:
 
