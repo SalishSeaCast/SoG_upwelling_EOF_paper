@@ -4,7 +4,7 @@ This directory contains the Jupyter notebooks that generate the figures presente
 
 >B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2022.
 
-These notebooks run by cloning this repository and setting up a conda environment, then starting a Jupyter session and navigating to the `notebooks` directory:
+These notebooks can be run by cloning this repository and setting up a conda environment, then starting a Jupyter session and navigating to the `notebooks` directory:
 
 ```
 $ jupyter lab

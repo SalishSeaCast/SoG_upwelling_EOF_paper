@@ -83,8 +83,10 @@ def openwaterpoints(landmask):
     specified islands, inlets and passages
     """
 
-    # Initiate waterpoints from landmask and remove specified areas
+    # Initiate waterpoints from landmask
     waterpoints = np.copy(landmask)
+    
+    # Remove specified areas
     waterpoints[:120, :] = 0     # Southern end
     waterpoints[410:, :] = 0     # Northern end
     waterpoints[:170, :130] = 0  # Gulf Islands

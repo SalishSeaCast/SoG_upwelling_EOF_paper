@@ -261,7 +261,7 @@ def build_results_file(savepath):
     encoding = {var: {'zlib': True} for var in ('v_along', 'tau_along', 'temperature', 'nitrate')}
     
     # Create xarray dataset and save to netCDF
-    xr.Dataset(variables, coords, attrs).to_netcdf(savepath + 'EOF_paper_model_fields.nc', encoding=encoding)
+    xr.Dataset(variables, coords, attrs).to_netcdf(savepath + 'MooreMaleyAllenOS2022_modelfields.nc', encoding=encoding)
 
 
 if __name__ == "__main__":

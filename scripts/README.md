@@ -4,17 +4,16 @@ This directory contains the Python scripts that generate the necessary datasets 
 
 >B. Moore-Maley and S. E. Allen: Wind-driven upwelling and surface nutrient delivery in a semi-enclosed coastal sea, Ocean Sci., 2022.
 
-These scripts can be run by cloning this repository and setting up a conda environment, then executing each script at the command line with a results path provided. For example, the following command will aggregate the results files from the [SalishSeaCast erddap server](https://salishsea.eos.ubc.ca/erddap/)
+These scripts can be run by cloning this repository and setting up a conda environment, then executing each script at the command line with a results path provided. For example, if you choose to generate the aggregated results file rather than downloading from the data archive on the FRDR repository, the following command will aggregate the results files from the [SalishSeaCast erddap server](https://salishsea.eos.ubc.ca/erddap/)
 
 ```
-$ cd scripts
-$ python3 aggregate_results.py /path/to/files
+$ python3 aggregate_results.py /path/to/files/
 ```
 
-and the following command will perform the PCA analysis.
+The following command will perform the PCA analysis.
 
 ```
-$ python3 PCA.py /path/to/files
+$ python3 PCA.py /path/to/files/
 ```
 
 ## Licenses

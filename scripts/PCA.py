@@ -112,7 +112,7 @@ def build_PCA_files(results_path, subsample=5, cutoff=1235):
 
     # Load aggregated results file
     slc = slice(None, None, subsample)
-    with xr.open_dataset(results_path + 'EOF_paper_model_fields.nc') as ds:
+    with xr.open_dataset(results_path + 'MooreMaleyAllenOS2022_modelfields.nc') as ds:
         data = {var: ds[var].values for var in ('temperature', 'nitrate')}
         coords = {var: ds[var].values[slc] for var in ('x', 'y')}
         coords['time'] = tools.formattime(ds.time.values)
