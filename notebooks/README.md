@@ -10,6 +10,8 @@ These notebooks can be run by cloning this repository and setting up a conda env
 $ jupyter lab
 ```
 
+Some of the notebooks contain generic paths like `/path/to/data/`. These paths will need to be updated before these notebooks can be run.
+
 ## Licenses
 
 The SalishSeaCast analysis and documentation are copyright 2013-2021 by the [Salish Sea MEOPAR Project Contributors](https://github.com/SalishSeaCast/docs/blob/master/CONTRIBUTORS.rst) and The University of British Columbia.
